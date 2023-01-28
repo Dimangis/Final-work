@@ -1,0 +1,11 @@
+html{
+  background-color: #F6F2F2;
+}
+
+.container{
+  margin: auto;
+  max-width: 1440px;
+}
+
+/* header */
+@import url(./blocks/header/header.css);
