@@ -7,12 +7,6 @@
 }
 
 .section-hero__title {
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 52px;
-  line-height: 143.5%;
-  text-transform: uppercase;
   display: block;
   max-width: 920px;
   margin: 0;
@@ -36,7 +30,7 @@
   position: relative;
   left: 63%;
   top: -50%;
-  width: 850px;
+  width: 950px;
   height: 428px;
   background: linear-gradient(100.24deg, #7A0CE8 7.27%, #7A0CE8 91.75%);
   border-radius: 300px 0px 0px 300px;

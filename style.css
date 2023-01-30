@@ -2,11 +2,13 @@
 @import './fonts/__uni-neue.css';
 @import './blocks/header/header.css';
 @import './blocks/section-hero/section-hero.css';
-html{
+@import './blocks/section-definition/section-definition.css';
+
+html {
   background-color: #F6F2F2;
 }
 
-.container{
+.container {
   margin: auto;
   max-width: 1440px;
 }
@@ -21,3 +23,33 @@ ul {
   padding: 0;
 }
 
+h1 {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 143.5%;
+  text-transform: uppercase;
+  color: #4C3563;
+}
+
+h2 {
+  font-family: 'Uni Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 168%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #4C3563;
+}
+
+h6{
+  font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 168%;
+letter-spacing: 0.05em;
+color: #4C3563;
+}
