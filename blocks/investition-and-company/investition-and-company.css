@@ -1,0 +1,73 @@
+.investition-and-company {
+  margin-bottom: 42.53px;
+}
+
+.inco__content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  
+  background: linear-gradient(100.24deg, #7A0CE8 7.27%, #6F0DD1 91.75%);
+  border-radius: 50px;
+}
+
+.inco__leftside,
+.inco__rightside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.content__text {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  max-width: 516px;
+  margin-top: 60px;
+  color: #FFFFFF;
+  /* border-right: 2px solid #AEADAD; */
+}
+
+.content__price {
+  font-size: 39px;
+  margin: 30px 0 45px 150px;
+}
+
+.content__price strong {
+  font-size: 125px;
+}
+
+.content__price div {
+  display: inline-block;
+  max-width: 188px;
+  padding: 12.5px 32.5px 12.5px 32.5px;
+  font-size: 30px;
+  color: #FFFFFF;
+  background-color: #2E025A;
+  text-transform: uppercase;
+  transform: rotate(-6.09deg) translate(-130px);
+}
+
+.inco__btn {
+  font-size: 20px;
+  line-height: 66px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  margin: 0 0 66px 0;
+  color: #6222AC;
+}
+
+.inco__rightside .content__price{
+  font-size: 125px;  
+}
+
+.inco__rightside .content__price strong{
+  font-size: 91px;
+}
+
+.inco__rightside .content__price div{
+  transform: rotate(-6.09deg) translate(-120px, 20px);
+}

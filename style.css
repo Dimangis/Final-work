@@ -3,6 +3,7 @@
 @import './blocks/header/header.css';
 @import './blocks/section-hero/section-hero.css';
 @import './blocks/section-definition/section-definition.css';
+@import './blocks/investition-and-company/investition-and-company.css';
 
 html {
   background-color: #F6F2F2;
@@ -44,6 +45,21 @@ h2 {
   color: #4C3563;
 }
 
+h3{
+  font-family: 'Uni Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 400%;
+text-align: center;
+display: block;
+margin: 0;
+padding:0 50px 0 50px;
+color: #2B2B2B;
+background-color: #FFFFFF;
+border-radius: 0px 0px 30px 30px;
+}
+
 h6{
   font-family: 'Manrope';
 font-style: normal;
@@ -52,4 +68,5 @@ font-size: 20px;
 line-height: 168%;
 letter-spacing: 0.05em;
 color: #4C3563;
+
 }
