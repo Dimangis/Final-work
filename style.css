@@ -1,3 +1,7 @@
+@import './fonts/__manrope.css';
+@import './fonts/__uni-neue.css';
+@import './blocks/header/header.css';
+@import './blocks/section-hero/section-hero.css';
 html{
   background-color: #F6F2F2;
 }
@@ -7,5 +11,13 @@ html{
   max-width: 1440px;
 }
 
-/* header */
-@import url(./blocks/header/header.css);
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+

@@ -1,0 +1,70 @@
+.section-hero {
+  background: linear-gradient(261.81deg, #D1D5E4 -30.26%, rgba(239, 240, 245, 0.19) 87.81%);
+  width: 100%;  
+  height: 500px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.section-hero__title {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 143.5%;
+  text-transform: uppercase;
+  display: block;
+  max-width: 920px;
+  margin: 0;
+  padding-top: 75px;
+  color: #4C3563;
+}
+
+.section-hero__text {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 159.5%;
+  letter-spacing: 0.05em;
+  display: block;
+  max-width: 420px;
+  color: #4C3563;
+}
+
+.imgs-group {
+  position: relative;
+  left: 63%;
+  top: -50%;
+  width: 850px;
+  height: 428px;
+  background: linear-gradient(100.24deg, #7A0CE8 7.27%, #7A0CE8 91.75%);
+  border-radius: 300px 0px 0px 300px;
+  z-index: 1;
+}
+
+.Mobile_white{
+  position: relative;
+  top: 1.5%;
+  left: 15%;
+  border-radius: 40px;
+  filter: drop-shadow(26px 38px 44px rgba(0, 0, 0, 0.57));
+  z-index: 3;
+}
+
+.Mobile_purple{
+  position: relative;  
+  top: -10%;
+  left: 8%;
+  border-radius: 40px;
+  filter: drop-shadow(26px 38px 44px rgba(0, 0, 0, 0.57));
+  z-index: -1;
+}
+
+.Personal-card{
+  transform: rotate(45deg);
+  position: relative;  
+  top: -70%;
+  left: -3%;
+  filter: drop-shadow(76px -38px 44px rgba(0, 0, 0, 0.57));
+}
