@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Lexend Giga';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+    url('../fonts/LexendGiga-Bold.woff') format('woff');
+}

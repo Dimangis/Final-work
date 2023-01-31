@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  
+
   background: linear-gradient(100.24deg, #7A0CE8 7.27%, #6F0DD1 91.75%);
   border-radius: 50px;
 }
@@ -28,7 +28,7 @@
   max-width: 516px;
   margin-top: 60px;
   color: #FFFFFF;
-  /* border-right: 2px solid #AEADAD; */
+  text-shadow: 0px 4px 7px rgba(0, 0, 0, 0.37);
 }
 
 .content__price {
@@ -49,6 +49,7 @@
   background-color: #2E025A;
   text-transform: uppercase;
   transform: rotate(-6.09deg) translate(-130px);
+  
 }
 
 .inco__btn {
@@ -58,16 +59,31 @@
   text-transform: capitalize;
   margin: 0 0 66px 0;
   color: #6222AC;
+  box-shadow: 0 0 5px 4px;
 }
 
-.inco__rightside .content__price{
-  font-size: 125px;  
+.inco__rightside .content__price {
+  font-family: 'Lexend Giga';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 125px;
 }
 
-.inco__rightside .content__price strong{
+.inco__rightside .content__price strong {
+  display: inline-block;
   font-size: 91px;
+  line-height: 70px;
+  border-bottom: 20px solid #FFFFFF;
+  transform: translate(-10px, -20px);
 }
 
-.inco__rightside .content__price div{
-  transform: rotate(-6.09deg) translate(-120px, 20px);
+.inco__rightside .content__price div {
+  transform: rotate(-6.09deg) translate(-120px);
+}
+
+.slice-a-border-right{
+  border-right: 2px solid;
+  /* Чистая магия */
+  border-image: linear-gradient(transparent 25%,#AEADAD 0%, #AEADAD 80%, transparent 25%) 1;
+  /* Чистая магия */
 }
